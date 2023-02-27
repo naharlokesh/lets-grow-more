@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: url('https://www.gardeningknowhow.com/wp-content/uploads/2020/12/lonely-japanese-cherry.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar{
+    padding: 10px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    display: flex;
+}
+
+nav ul li a:before {
+    margin-right: 30px;
+}
+
+nav ul li a:hover {
+    background: white;
+}
+
+.box1{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.box2{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.add {
+    justify-content: space-between;
+    background-color: rgba(89, 238, 9, 0.814);
+    width: 10vw;
+    height: 8vh;
+    border-radius: 10px; 
+    font-size: 25px;
+    margin-left: 10px;
+    
+}
+
+.add:hover {
+    background-color: orangered;
+}
+
+.in{
+    width: 30vw;
+    height: 8vh;
+    border-radius: 10px; 
+    font-size: 25px;
+}
+
+
+.listeditem{
+   
+    border-bottom: 0.5px solid #D5DBDB;
+    background-color: white;
+    font-size: 25px;
+    width: 30vw;
+    height: 8vh;
+    border-radius: 10px;
+    margin-top:10px;
+    text-align: left;
+}
+
+.delete {
+    justify-content: space-between;
+    background-color: rgba(89, 238, 9, 0.814);
+    width: 10vw;
+    height: 8vh;
+    border-radius: 10px; 
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.delete:hover {
+    background-color: orangered;
+}
